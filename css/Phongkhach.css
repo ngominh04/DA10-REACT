@@ -1,0 +1,191 @@
+#phong-khach .banner{position: relative;margin-top: 5rem;}
+#phong-khach .banner .banner-text{position: absolute; left: 58%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+#phong-khach .banner .banner-text h1{position: relative;}
+#phong-khach .banner .banner-text h1 img{position: absolute;top: -5rem;left: -4.5rem;}
+#phong-khach .banner .banner-text button{width: 180px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;}
+#phong-khach #phong{position: absolute;width: 1150px;margin-left: 12%;background-color: white;margin-top: 8rem;}
+#phong-khach #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+#phong-khach #phong h3{position: relative;}
+#phong-khach #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;font-size: 16px;bottom: 0;}
+#phong-khach #phong .row{text-align: center;width: 1100px;margin-left: 1rem;font-family: gotham-medium;}
+#phong-khach #phong .row img{width: 250px;height: 250px;}
+#phong-khach #phong .row p{margin-top: -0.65rem;}
+#phong-khach #phong .row #size{font-family: gotham-thin;font-size: 12px;color: black;}
+#phong-khach #phong .row #gia{font-family: gotham-medium;font-size: 14px;}
+
+#phongkhach-next {margin-left: 38%;}
+#phongkhach-next ul{display: flex;margin-bottom: 3rem;}
+#phongkhach-next ul li {
+    list-style: none;
+    /* width: 25px;
+    background-color: #f3f3f3; */
+    text-align: center;
+    margin: 0.5rem;}
+#phongkhach-next ul li a{padding: 5px;padding-left: 7px;padding-right: 7px; color: white;text-decoration: none;}
+
+.phong-khach-khoang-trong{height: 1500px;background-color: #f3f3f3;}
+.phong-khach-khoang-trong .container{width: 1170px;}
+.phong-khach-khoang-trong #text{display: flex;margin-left: -0.5rem;margin-top: 5rem;font-family: gotham-medium;}
+.phong-khach-khoang-trong #text li{list-style: none;margin-left: 2rem;color: #bd945f;}
+.phong-khach-khoang-trong #text #text-6{text-align: end;margin-left: 23%;}
+#sx{text-align: start;border: 1px solid #bd945f;display: none;position: absolute;font-size: 12px;}
+.phong-khach-khoang-trong #text #text-6:hover  #sx{display: block;margin-left: -2rem;}
+#sx li:hover{background-color: #bd945f;margin-left: -2rem;}
+
+/* responsive  */
+/* // Small devices (landscape phones, 576px and up)================ */ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #phong-khach .banner{position: relative;margin-top: 5rem;}
+    #phong-khach .banner .banner-text{position: absolute; left: 45%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #phong-khach .banner .banner-text h1{position: relative;font-size: 24px;}
+    #phong-khach .banner .banner-text h1 img{position: absolute;top: -2.5rem;left: -1.2rem;width: 200px;}
+    #phong-khach .banner .banner-text button{width: 80px;height: 40px;padding: 0.5rem 0.5rem 0.2rem 0.2rem;border: white;margin-left: 13.7rem;font-size: 12px;}
+    
+    #phong-khach #phong{position: absolute;width: 500px;margin-left: 5%;background-color: white;margin-top: 8rem;}
+    #phong-khach #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+    #phong-khach #phong h3{position: relative;font-size: 20px;}
+    #phong-khach #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;bottom: 0;}
+
+    #phong-khach #phong .row{text-align: center;width: 450px;margin-left: 1rem;font-family: gotham-medium;}
+    #phong-khach #phong .row h6{font-size: 10px;}
+    #phong-khach #phong .row img{width: 100px;height: 100px;}
+    #phong-khach #phong .row p{margin-top: -0.65rem;}
+    #phong-khach #phong .row p i{font-size: 10px;}
+    #phong-khach #phong .row #size{font-family: gotham-thin;font-size: 8px;color: black;}
+    #phong-khach #phong .row #gia{font-family: gotham-medium;font-size: 10px;}
+
+    #phongkhach-next {margin-left: 23%;}
+    #phongkhach-next ul{display: flex;margin-bottom: 3rem;}
+    #phongkhach-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #phongkhach-next ul li a{padding: 5px;padding-left: 7px;padding-right: 7px; color: white;text-decoration: none;}
+
+    .phong-khach-khoang-trong{height: 1050px;background-color: #f3f3f3;}
+    .phong-khach-khoang-trong .container{width: 700px;}
+    .phong-khach-khoang-trong #text{display: flex;margin-left: -2.5rem;margin-top: 5rem;font-family: gotham-medium;}
+    .phong-khach-khoang-trong #text li{list-style: none;margin-left: 0.5rem;color: #bd945f;font-size: 10px;}
+    .phong-khach-khoang-trong #text #text-6{text-align: end;margin-left: 18%;}
+    #sx{text-align: start;border: 1px solid #bd945f;display: none;position: absolute;font-size: 10px;}
+    .phong-khach-khoang-trong #text #text-6:hover  #sx{display: block;margin-left: -2rem;}
+    #sx li:hover{background-color: #bd945f;margin-left: -2rem;}
+}
+/* // Medium devices (tablets, 768px and up)======================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #phong-khach .banner{position: relative;margin-top: 5rem;}
+    #phong-khach .banner .banner-text{position: absolute; left: 58%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #phong-khach .banner .banner-text h1{position: relative;font-size: 28px;}
+    #phong-khach .banner .banner-text h1 img{position: absolute;top: -4rem;left: -3rem;width: 300px;}
+    #phong-khach .banner .banner-text button{width: 100px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;font-size: 14px;}
+    
+    #phong-khach #phong{position: absolute;width: 700px;margin-left: 5%;background-color: white;margin-top: 8rem;}
+    #phong-khach #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+    #phong-khach #phong h3{position: relative;}
+    #phong-khach #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;font-size: 16px;bottom: 0;}
+    #phong-khach #phong .row{text-align: center;width: 650px;margin-left: 1rem;font-family: gotham-medium;}
+    #phong-khach #phong .row h6{font-size: 16px;}
+    #phong-khach #phong .row img{width: 150px;height: 150px;}
+    #phong-khach #phong .row p{margin-top: -0.65rem;}
+    #phong-khach #phong .row #size{font-family: gotham-thin;font-size: 12px;color: black;}
+    #phong-khach #phong .row #gia{font-family: gotham-medium;font-size: 14px;}
+
+    #phongkhach-next {margin-left: 38%;}
+    #phongkhach-next ul{display: flex;margin-bottom: 3rem;}
+    #phongkhach-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #phongkhach-next ul li a{padding: 5px;padding-left: 7px;padding-right: 7px; color: white;text-decoration: none;}
+
+    .phong-khach-khoang-trong{height: 1350px;background-color: #f3f3f3;}
+    .phong-khach-khoang-trong .container{width: 700px;}
+    .phong-khach-khoang-trong #text{display: flex;margin-left: -2.5rem;margin-top: 5rem;font-family: gotham-medium;}
+    .phong-khach-khoang-trong #text li{list-style: none;margin-left: 1rem;color: #bd945f;font-size: 12px;}
+    .phong-khach-khoang-trong #text #text-6{text-align: end;margin-left: 18%;}
+    #sx{text-align: start;border: 1px solid #bd945f;display: none;position: absolute;font-size: 12px;}
+    .phong-khach-khoang-trong #text #text-6:hover  #sx{display: block;margin-left: -2rem;}
+    #sx li:hover{background-color: #bd945f;margin-left: -2rem;}
+}
+/* // Large devices (desktops, 992px and up)======================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #phong-khach .banner{position: relative;margin-top: 5rem;}
+    #phong-khach .banner .banner-text{position: absolute; left: 58%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #phong-khach .banner .banner-text h1{position: relative;}
+    #phong-khach .banner .banner-text h1 img{position: absolute;top: -5rem;left: -4.5rem;}
+    #phong-khach .banner .banner-text button{width: 180px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;}
+    
+    #phong-khach #phong{position: absolute;width: 900px;margin-left: 5%;background-color: white;margin-top: 8rem;}
+    #phong-khach #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+    #phong-khach #phong h3{position: relative;}
+    #phong-khach #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;font-size: 16px;bottom: 0;}
+    #phong-khach #phong .row{text-align: center;width: 850px;margin-left: 1rem;font-family: gotham-medium;}
+    #phong-khach #phong .row img{width: 200px;height: 200px;}
+    #phong-khach #phong .row p{margin-top: -0.65rem;}
+    #phong-khach #phong .row #size{font-family: gotham-thin;font-size: 12px;color: black;}
+    #phong-khach #phong .row #gia{font-family: gotham-medium;font-size: 14px;}
+
+    #phongkhach-next {margin-left: 38%;}
+    #phongkhach-next ul{display: flex;margin-bottom: 3rem;}
+    #phongkhach-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #phongkhach-next ul li a{padding: 5px;padding-left: 7px;padding-right: 7px; color: white;text-decoration: none;}
+
+    .phong-khach-khoang-trong{height: 1350px;background-color: #f3f3f3;}
+    .phong-khach-khoang-trong .container{width: 1000px;}
+    .phong-khach-khoang-trong #text{display: flex;margin-left: -0.5rem;margin-top: 5rem;font-family: gotham-medium;}
+    .phong-khach-khoang-trong #text li{list-style: none;margin-left: 2rem;color: #bd945f;font-size: 14px;}
+    .phong-khach-khoang-trong #text #text-6{text-align: end;margin-left: 18%;}
+    #sx{text-align: start;border: 1px solid #bd945f;display: none;position: absolute;font-size: 12px;}
+    .phong-khach-khoang-trong #text #text-6:hover  #sx{display: block;margin-left: -2rem;}
+    #sx li:hover{background-color: #bd945f;margin-left: -2rem;}
+}
+/* // Extra large devices (large desktops, 1200px and up)=========== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #phong-khach .banner{position: relative;margin-top: 5rem;}
+    #phong-khach .banner .banner-text{position: absolute; left: 58%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #phong-khach .banner .banner-text h1{position: relative;}
+    #phong-khach .banner .banner-text h1 img{position: absolute;top: -5rem;left: -4.5rem;}
+    #phong-khach .banner .banner-text button{width: 180px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;}
+    
+    #phong-khach #phong{position: absolute;width: 1050px;margin-left: 5%;background-color: white;margin-top: 8rem;}
+    #phong-khach #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+    #phong-khach #phong h3{position: relative;}
+    #phong-khach #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;font-size: 16px;bottom: 0;}
+    #phong-khach #phong .row{text-align: center;width: 1000px;margin-left: 1rem;font-family: gotham-medium;}
+    #phong-khach #phong .row img{width: 200px;height: 200px;}
+    #phong-khach #phong .row p{margin-top: -0.65rem;}
+    #phong-khach #phong .row #size{font-family: gotham-thin;font-size: 12px;color: black;}
+    #phong-khach #phong .row #gia{font-family: gotham-medium;font-size: 14px;}
+
+    #phongkhach-next {margin-left: 38%;}
+    #phongkhach-next ul{display: flex;margin-bottom: 3rem;}
+    #phongkhach-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #phongkhach-next ul li a{padding: 5px;padding-left: 7px;padding-right: 7px; color: white;text-decoration: none;}
+
+    .phong-khach-khoang-trong{height: 1500px;background-color: #f3f3f3;}
+    .phong-khach-khoang-trong .container{width: 1170px;}
+    .phong-khach-khoang-trong #text{display: flex;margin-left: -0.5rem;margin-top: 5rem;font-family: gotham-medium;}
+    .phong-khach-khoang-trong #text li{list-style: none;margin-left: 2rem;color: #bd945f;}
+    .phong-khach-khoang-trong #text #text-6{text-align: end;margin-left: 23%;}
+    #sx{text-align: start;border: 1px solid #bd945f;display: none;position: absolute;font-size: 12px;}
+    .phong-khach-khoang-trong #text #text-6:hover  #sx{display: block;margin-left: -2rem;}
+    #sx li:hover{background-color: #bd945f;margin-left: -2rem;}
+}
+
+
+
+

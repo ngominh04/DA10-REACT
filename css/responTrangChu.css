@@ -1,0 +1,629 @@
+
+
+/* // Small devices (landscape phones, 576px and up)================ */ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header{
+        /* cố định menu  */
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+    }
+    header .row{
+        font-size: 5px;
+        margin-left: -5%;
+        display: flex;
+    }
+    header .row img{width: 100px;}
+    header .row ul{display: flex;justify-content: flex-end;margin-left: 3rem;}
+    header .row ul li{
+        margin-top: -2rem;
+        font-size: 10px;
+        list-style: none;
+    }
+    header .row ul li a{
+        font-family: gotham-medium;
+        text-decoration: none;color: black;
+    }
+    #Trangchu{background-color: #f3f3f3;margin-top: 5rem;}
+    #Trangchu .banner{position: relative;}
+    #Trangchu .banner .banner-text{
+        width: 500px;
+        position: absolute;
+        top: 16%;
+        left: 12%;
+    }
+    #Trangchu .banner .banner-text #h1_1{color: #2c2e53;font-family: gotham-ultra;font-size: 28px;}
+    #Trangchu .banner .banner-text #h1_2{color: #bd945f;font-family: gotham-ultra;font-size: 28px;}
+    #Trangchu .banner .banner-text p{width: 400px;font-family: gotham-medium; font-size: 12px;}  
+    #Trangchu .banner .banner-text button{
+        font-family: gotham-ultra;
+        padding: 0.75rem;padding-left: 1.5rem;padding-right: 1.5rem;
+        color: white;background-color: #bd945f;
+        border: #bd945f;}
+    #Trangchu .banner #duoi-banner{
+        position: absolute;
+        background-color: white;
+        color: #2c2e53;
+        font-family: gotham-ultra;
+        margin-top: -5rem;
+        margin-left: 5%;
+        width: 500px;
+        height:300px;
+        font-size: 10px;
+    }
+    #Trangchu .banner #duoi-banner img{height: 70px;width: 70px;}
+    #duoi-banner .row{text-align: center;}
+    #sp-noi-bat{text-align: center;margin-top: 330px;width: 500px;margin-left: 5%;} 
+    #sp-noi-bat h2,h6{color: #2c2e53;font-family: gotham-ultra;margin-top: 0.5rem;}
+    #sp-noi-bat h6{font-size: 12px;}
+    #sp-noi-bat #sp-gia{font-size: 10px;}
+    #sp-noi-bat #sp-loai{font-size: 8px;}
+    #sp-noi-bat img{width: 100px;height: 100px;}
+    #sp-noi-bat .row{margin-top: 2.5rem;margin-left: -2%;width: 500px;}
+    #sp-noi-bat .row p{margin-top: -0.75rem;}
+    #sp-noi-bat .row .col-3{margin-left: 0rem;}
+    /* #sp-noi-bat .row .col-3 img{width: 150px;} */
+    #sp-noi-bat i{font-size: 10px;color: #bd945f;margin-right: 0.2rem;}
+    #ve-chung-toi .banner-vct{position: relative;}
+    #ve-chung-toi .banner-vct .row{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 550px;height: 370px;
+        top: 10%;
+        color:white;
+        position: absolute;
+    }
+    
+    #ve-chung-toi .banner-vct .row #h2_1{text-align: center; margin-top: -8%;font-size: 24px;}
+    #banner-chinh-vct{height: 1200px;}
+    #vct1 img{
+        margin-left: -1rem;
+        width: 520px;height: 280px;
+    }
+    #vct2 {width: 410px;height: 280px;margin-left: 2rem;margin-top: 0.5rem;}
+    #vct2 p{font-size: 10px;}
+    #vct2-chen{position: relative;}
+    #vct2-chen p{position: absolute;top: 45%;left: 10%;color: white;}
+    #vct2 ul{display: flex;margin-left: -2rem;}
+    #vct2 ul li{list-style: none;margin-right: 0.5rem;}
+    #vct2 p{margin-top: -0.25rem;}
+    #vct2 ul li img{width: 100px;height: 100px;}
+    #ve-chung-toi .banner-vct .row #h2_2{text-align: center;margin-top: 5%;font-size: 24px;}
+    #vct3{
+        display: flex;
+        margin-right: 1rem;margin-left: 20%;margin-top: 1rem;
+        padding-left: 0.5rem;padding-top: 1rem;
+        background-color: white;color: black;
+        width: 320px;
+        
+    }
+    #vct3 img{width: 30px;height: 30px;}
+    #vct3 ul li{list-style: none;font-size: 10px;}
+    #vct3 ul li h4{color: #bd945f;font-size: 12px;}
+    #vct4{
+        display: flex;
+        ;margin-top: 1rem;margin-left: 20%;
+        padding-left: 0.5rem;padding-top: 1rem;
+        background-color: white;color: black;
+        width: 320px;
+    }
+    #vct4 img{width: 30px;height: 30px;}
+    #vct4 ul li{list-style: none;font-size: 10px;}
+    #vct4 ul li h4{color: #bd945f;font-size: 12px;}
+    #tintuc-doitac{width: 1170px;margin-top: 6rem;}
+    #tintuc-doitac h2{text-align: center; padding-bottom: 2rem;}
+    #tt-1{position: relative;margin-left: -1rem;}
+    #tt-1  img {width: 500px;height: 500px;margin-left: 2.5rem;}
+    #tt-1 #tt-text {
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;margin-left: 2.5rem;
+        background-color: #bd945f;
+        width: 500px;height: 150px;
+    }
+    #tt-1 #tt-text h5{color: white;}
+    #tt-2 {margin-left: 1rem;margin-top: 0;width: 550px;}
+    #tt-2 ul li{list-style: none;}
+    #tt-2 #tt-box{display: flex;margin-left: -3.5rem;padding-bottom: 0.5rem;}
+    #tt-2 #tt-box li{padding-left: -0.5rem;font-size: 12px;}
+    #dt{margin-top: 5rem;}
+    #dt ul{display: flex;margin-left: 0;}
+    #dt ul li{list-style: none;margin: 1rem;}
+    #dt ul li img{width: 40px;height: 40px;}
+    #lienhe{position: relative;padding: 0;margin-top: 4rem;}
+    #lienhe .lienhe-banner2{position: absolute;top: -7rem;left: 2%;}
+    #lienhe .lienhe-banner2 img{width:100px; height: 200px;}
+    #lienhe ul{display: flex;position: absolute;top: 10%;}
+    #lienhe ul li{list-style: none;}
+    #lienhe ul #lienhe3 button{margin-left: 1rem;width: 50px;height: 30px;margin-top: 2.5rem;font-size: 12px;}
+    #lienhe ul #lienhe2 {margin-left: 2rem;}
+    #lienhe ul #lienhe2 input{width: 200px;height: 30px;font-size: 12px;}
+    #lienhe ul #lienhe1 {margin-left: 5rem;margin-top: 1rem;}
+    #lienhe ul #lienhe1 p{font-size: 12px;}
+    #lienhe ul #lienhe1 h5{font-size: 14px;margin-top: -0.5rem;}
+    footer{background-color: #363636;color: white;}
+    footer .container{width: 1190px;}
+    #ft-1{font-size: 10px; margin-left: -0.5rem;}
+    #ft-1 img{width: 10px;height: 10px;}
+    #ft-1 h5{font-size: 12px;}
+    #ft-1 h6{font-size: 14px;}
+    #ft-2{font-size: 10px;margin-left: 1rem;}
+    #ft-2 h5{font-size: 12px;}
+    #ft-2 h6{font-size: 14px;}
+    #ft-3{font-size: 10px;margin-left: -1rem;}
+    #ft-3 #ft-3-1{width: 25px;height: 25px;}
+    #ft-3 #ft-3-2{width: 100px;height: 50px;}
+    #ft-3 h5{font-size: 12px;}
+    #ft-3 h6{font-size: 14px;}
+    footer ul{margin: 0.5rem;}
+    footer ul li{list-style: none;}
+    footer ul li img{margin-right: 0.1rem;margin-bottom: 0.1rem;}
+    #ft-box img{margin-bottom: 1rem;margin-top: 1rem;margin-right: 0.75rem}
+ }
+
+/* // Medium devices (tablets, 768px and up)======================== */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    header{
+        /* cố định menu  */
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+    }
+    header .row{
+        font-size: 14px;
+        margin-left: -2%;
+        display: flex;
+    }
+    header .row img{width: 100px;}
+    header .row ul{display: flex;justify-content: flex-end;}
+    header .row ul li{
+        margin-top: -2rem;
+        font-size: 12px;
+        list-style: none;
+    }
+    header .row ul li a{
+        font-family: gotham-medium;
+        text-decoration: none;color: black;
+    }
+    #Trangchu{background-color: #f3f3f3;margin-top: 5rem;}
+    #Trangchu .banner{position: relative;}
+    #Trangchu .banner .banner-text{
+        width: 500px;
+        position: absolute;
+        top: 16%;
+        left: 12%;
+    }
+    #Trangchu .banner .banner-text #h1_1{color: #2c2e53;font-family: gotham-ultra;font-size: 28px;}
+    #Trangchu .banner .banner-text #h1_2{color: #bd945f;font-family: gotham-ultra;font-size: 28px;}
+    #Trangchu .banner .banner-text p{width: 400px;font-family: gotham-medium; font-size: 12px;}  
+    #Trangchu .banner .banner-text button{
+        font-family: gotham-ultra;
+        padding: 0.75rem;padding-left: 1.5rem;padding-right: 1.5rem;
+        color: white;background-color: #bd945f;
+        border: #bd945f;}
+    #Trangchu .banner #duoi-banner{
+        position: absolute;
+        background-color: white;
+        color: #2c2e53;
+        font-family: gotham-ultra;
+        margin-top: -5rem;
+        left: -3%;
+        width: 650px;
+        height:420px;
+    }
+    #Trangchu .banner #duoi-banner img{height: 80px;width: 80px;margin: 1rem;}
+    #duoi-banner .row{text-align: center;margin: 2rem;}
+    #sp-noi-bat{text-align: center;margin-top: 450px;width: 650px;} 
+    #sp-noi-bat h2,h6{color: #2c2e53;font-family: gotham-ultra;margin-top: 0.5rem;}
+    #sp-noi-bat .row{margin-top: 2.5rem;margin-left: -5%;width: 700px;}
+    #sp-noi-bat .row p{margin-top: -0.75rem;}
+    #sp-noi-bat .row .col-3{margin-left: -1rem;}
+    #sp-noi-bat .row .col-3 img{width: 150px;}
+     i{color: #bd945f;margin-right: 0.2rem;}
+    #ve-chung-toi .banner-vct{position: relative;}
+    #ve-chung-toi .banner-vct .row{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 650px;height: 370px;
+        top: 10%;
+        color:white;
+        position: absolute;
+    }
+    #ve-chung-toi .banner-vct .row #h2_1{text-align: center; margin-top: -8%;font-size: 24px;width: 700px;}
+    #banner-chinh-vct{height: 1360px;}
+    #vct1 img{
+        margin-left: 2rem;
+        width: 520px;height: 280px;
+    }
+    #vct2 {width: 410px;height: 280px;margin-left: 2rem;margin-top: 0.5rem;}
+    #vct2 p{font-size: 10px;}
+    #vct2-chen{position: relative;}
+    #vct2-chen p{position: absolute;top: 45%;left: 10%;color: white;}
+    #vct2 ul{display: flex;margin-left: -2rem;}
+    #vct2 ul li{list-style: none;margin-right: 0.5rem;}
+    #vct2 p{margin-top: -0.25rem;}
+    #vct2 ul li img{width: 100px;height: 100px;}
+    #ve-chung-toi .banner-vct .row #h2_2{text-align: center;margin-top: 5%;font-size: 24px;width: 700px;}
+    #vct3{
+        display: flex;
+        margin-right: 1rem;margin-left: -1rem;margin-top: 2rem;
+        padding-left: -3rem;padding-top: 1rem;
+        background-color: white;color: black;
+        width: 320px;
+        
+    }
+    #vct3 img{width: 40px;height: 40px;}
+    #vct3 ul li{list-style: none;font-size: 10px;}
+    #vct3 ul li h4{color: #bd945f;font-size: 12px;}
+    #vct4{
+        display: flex;
+        ;margin-top: 2rem;
+        margin-left: 3rem;
+        padding-left: 1.5rem;padding-top: 1rem;
+        background-color: white;color: black;
+        width: 320px;
+    }
+    #vct4 img{width: 40px;height: 40px;}
+    #vct4 ul li{list-style: none;font-size: 10px;}
+    #vct4 ul li h4{color: #bd945f;font-size: 12px;}
+    #tintuc-doitac{width: 1170px;margin-top: 6rem;}
+    #tintuc-doitac h2{text-align: center; padding-bottom: 2rem;}
+    #tt-1{position: relative;margin-left: 1rem;}
+    #tt-1  img {width: 500px;height: 500px;margin-left: 2.5rem;}
+    #tt-1 #tt-text {
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;margin-left: 2.5rem;
+        background-color: #bd945f;
+        width: 500px;height: 150px;
+    }
+    #tt-1 #tt-text h5{color: white;}
+    #tt-2 {margin-left: 1rem;margin-top: 0;width: 550px;}
+    #tt-2 ul li{list-style: none;}
+    #tt-2 #tt-box{display: flex;margin-left: -2rem;padding-bottom: 0.5rem;}
+    #tt-2 #tt-box li{padding-left: 0.5rem;font-size: 12px;}
+    #dt{margin-top: 5rem;}
+    #dt ul{display: flex;margin-left: 10%;}
+    #dt ul li{list-style: none;margin: 1rem;}
+    #dt ul li img{width: 50px;height: 40px;}
+    #lienhe{position: relative;padding: 0;margin-top: 4rem;}
+    #lienhe .lienhe-banner2{position: absolute;top: -9rem;left: 2%;}
+    #lienhe .lienhe-banner2 img{width:150px; height: 250px;}
+    #lienhe ul{display: flex;position: absolute;top: 10%;}
+    #lienhe ul li{list-style: none;}
+    #lienhe ul #lienhe3 button{margin-left: 1rem;width: 80px;height: 30px;margin-top: 2.5rem;}
+    #lienhe ul #lienhe2 {margin-left: 2rem;}
+    #lienhe ul #lienhe2 input{width: 200px;height: 30px;}
+    #lienhe ul #lienhe1 {margin-left: 8rem;margin-top: 1rem;}
+    footer{background-color: #363636;color: white;}
+    footer .container{width: 1190px;}
+    #ft-1{font-size: 10px;}
+    #ft-1 img{width: 10px;height: 10px;}
+    #ft-1 h5{font-size: 12px;}
+    #ft-1 h6{font-size: 14px;}
+    #ft-2{font-size: 10px;}
+    #ft-2 h5{font-size: 12px;}
+    #ft-2 h6{font-size: 14px;}
+    #ft-3{font-size: 10px;}
+    #ft-3 #ft-3-1{width: 25px;height: 25px;}
+    #ft-3 #ft-3-2{width: 100px;height: 50px;}
+    #ft-3 h5{font-size: 12px;}
+    #ft-3 h6{font-size: 14px;}
+    footer ul{margin: 2rem;}
+    footer ul li{list-style: none;}
+    footer ul li img{margin-right: 0.5rem;margin-bottom: 0.5rem;}
+    #ft-box img{margin-bottom: 1rem;margin-top: 1rem;margin-right: 0.75rem}
+ }
+
+/* // Large devices (desktops, 992px and up)======================== */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header{
+        /* cố định menu  */
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+    }
+    header .row{
+        font-size: 14px;
+        margin-left: 1rem;
+        
+        display: flex;
+    }
+    header .row img{width: 100px;}
+    header .row ul{display: flex;justify-content: flex-end;}
+    header .row ul li{
+        margin-top: -2rem;margin-left: 1rem;
+        list-style: none;
+    }
+    header .row ul li a{
+        font-family: gotham-medium;
+        text-decoration: none;color: black;
+    }
+    #Trangchu{background-color: #f3f3f3;margin-top: 5rem;}
+    #Trangchu .banner{position: relative;}
+    #Trangchu .banner .banner-text{
+        width: 780px;
+        position: absolute;
+        top: 16%;
+        left: 15%;
+    }
+    #Trangchu .banner .banner-text #h1_1{color: #2c2e53;font-family: gotham-ultra;}
+    #Trangchu .banner .banner-text #h1_2{color: #bd945f;font-family: gotham-ultra;}
+    #Trangchu .banner .banner-text p{width: 500px;font-family: gotham-medium; }  
+    #Trangchu .banner .banner-text button{
+        font-family: gotham-ultra;
+        padding: 0.75rem;padding-left: 1.5rem;padding-right: 1.5rem;
+        color: white;background-color: #bd945f;
+        border: #bd945f;}
+    #Trangchu .banner #duoi-banner{
+        position: absolute;
+        background-color: white;
+        color: #2c2e53;
+        font-family: gotham-ultra;
+        margin-top: -5rem;
+        left: -5%;
+        width: 800px;
+        height:420px;
+    }
+    #Trangchu .banner #duoi-banner img{height: 100px;width: 100px;margin: 1rem;}
+    #duoi-banner .row{text-align: center;margin: 2rem;}
+    #sp-noi-bat{text-align: center;margin-top: 450px;width: 800px;} 
+    #sp-noi-bat h2,h6{color: #2c2e53;font-family: gotham-ultra;margin-top: 0.5rem;}
+    #sp-noi-bat .row{margin-top: 2.5rem;margin-left: -5%;width: 900px;}
+    #sp-noi-bat .row p{margin-top: -0.75rem;}
+    #sp-noi-bat .row .col-3{margin-left: -2rem;}
+     i{color: #bd945f;margin-right: 0.2rem;}
+    #ve-chung-toi .banner-vct{position: relative;}
+    #ve-chung-toi .banner-vct .row{
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 900px;height: 370px;
+        top: 10%;
+        color:white;
+        position: absolute;
+    }
+    
+    #ve-chung-toi .banner-vct .row #h2_1{text-align: center; margin-top: -8%;}
+    #vct1 img{
+        margin-left: -1rem;
+        width: 400px;height: 300px;
+    }
+    #vct2 {width: 410px;height: 280px;margin-left: -2rem;}
+    #vct2 p{font-size: 10px;}
+    #vct2-chen{position: relative;}
+    #vct2-chen p{position: absolute;top: 45%;left: 10%;color: white;}
+    #vct2 ul{display: flex;margin-left: -2rem;}
+    #vct2 ul li{list-style: none;margin-right: 0.5rem;}
+    #vct2 p{margin-top: -0.25rem;}
+    #vct2 ul li img{width: 100px;height: 100px;}
+    #ve-chung-toi .banner-vct .row #h2_2{text-align: center;margin-top: 2%;}
+    #vct3{
+        display: flex;
+        margin-right: 1rem;margin-left: 2rem;margin-top: 2rem;
+        padding-left: 1.5rem;padding-top: 1rem;
+        background-color: white;color: black;
+        width: 420px;
+    }
+    #vct3 img{width: 40px;height: 40px;}
+    #vct3 ul li{list-style: none;}
+    #vct3 ul li h4{color: #bd945f;}
+    #vct4{
+        display: flex;
+        ;margin-top: 2rem;
+        padding-left: 1.5rem;padding-top: 1rem;
+        background-color: white;color: black;
+        width: 420px;
+    }
+    #vct4 img{width: 40px;height: 40px;}
+    #vct4 ul li{list-style: none;}
+    #vct4 ul li h4{color: #bd945f;}
+    #tintuc-doitac{width: 1170px;margin-top: 6rem;}
+    #tintuc-doitac h2{text-align: center; padding-bottom: 2rem;}
+    #tt-1{position: relative;margin-left: 1rem;}
+    #tt-1  img {width: 400px;height: 500px;margin-left: 2.5rem;}
+    #tt-1 #tt-text {
+        position: absolute;
+        bottom: 0;
+        padding: 1rem;margin-left: 2.5rem;
+        background-color: #bd945f;
+        width: 400px;height: 150px;
+    }
+    #tt-1 #tt-text h5{color: white;}
+    #tt-2 {margin-left: -4.5rem;margin-top: -1.5rem;}
+    #tt-2 ul li{list-style: none;}
+    #tt-2 #tt-box{display: flex;margin-left: -2rem;padding-bottom: 0.5rem;}
+    #tt-2 #tt-box li{padding-left: 0.5rem;font-size: 12px;}
+    /* #tt-2 #tt-box li img{width: 100px;} */
+    
+    #dt{margin-top: 5rem;}
+    #dt ul{display: flex;margin-left: 10%;}
+    #dt ul li{list-style: none;margin: 1rem;}
+    #dt ul li img{width: 80px;height: 70px;}
+    #lienhe{position: relative;padding: 0;margin-top: 4rem;}
+    #lienhe .lienhe-banner2{position: absolute;top: -9rem;left: 2%;}
+    #lienhe .lienhe-banner2 img{width:200px; height: 300px;}
+    #lienhe ul{display: flex;position: absolute;top: 30%;}
+    #lienhe ul li{list-style: none;}
+    #lienhe ul #lienhe3 button{margin-left: 1rem;width: 100px;height: 30px;margin-top: 2.5rem;}
+    #lienhe ul #lienhe2 {margin-left: 2rem;}
+    #lienhe ul #lienhe2 input{width: 250px;height: 30px;}
+    #lienhe ul #lienhe1 {margin-left: 13rem;margin-top: 1rem;}
+    footer{background-color: #363636;color: white;}
+    footer .container{width: 1190px;}
+    footer ul{margin: 2rem;}
+    footer ul li{list-style: none;}
+    footer ul li img{margin-right: 0.5rem;margin-bottom: 0.5rem;}
+    #ft-box img{margin-bottom: 1rem;margin-top: 1rem;margin-right: 0.75rem}
+
+    #gt #banner{position: relative;margin-top: 5rem;}
+    #gt #banner #banner-text{position: absolute;top: 5%;left: 45%;}
+    #gt #banner #banner-text h1{margin-left: -2.2rem;margin-top: 1rem;}
+    #gt #banner #banner-box{
+        position: absolute;
+        margin-top: -3rem; margin-left: 5%;
+        width: 900px;
+        height: 1400px;
+    }
+    #gt #banner-box h2{padding-top: 3.5rem;font-family: gotham-ultra;}
+    #gt #banner-box p{font-family: gotham-medium;}
+    #gt #banner-box #thanhlap_pt .row{margin-top: 3.5rem; margin-left: 0;font-size: 12px;} 
+    #gt #banner-box #thanhlap_pt .row img{width: 400px;}
+    #gt #banner-box #thanhlap_pt .row #thanhlap_pt-text{margin-left: -5rem; width: 400px;}
+    #gt #banner-box #thanhlap_pt .row p{ width: 400px;}
+    #gt #banner-box #tam-nhin .row{margin-left: 0;margin-top: 3.5rem; font-size: 14px;}
+    #gt #banner-box #tam-nhin .row img{width: 800px;}
+    #gt #banner-box #tam-nhin .row p{width: 800px; text-align: center;margin-top: 0.5rem;}
+    #gt #banner-box #su-menh .row{
+        margin-top: 3.5rem;width: 1060px;margin-left: 0rem;
+    }
+    #gt #banner-box #su-menh .row #su-menh-box{width: 420px;}
+    #su-menh ul{display: flex;border: 3px solid #bd945f;padding: 0.5rem;}
+    #su-menh ul li{list-style: none;padding-left: 1rem;}
+    #su-menh ul li img{margin-top: 1rem;width: 50px;}
+    #su-menh ul li p{font-size: 10px;width: 290px;}
+    #su-menh ul li h6{color: #bd945f;font-family: gotham-medium;}
+    .khoang-trong{background-color: #f3f3f3;height: 1450px;}
+ }
+
+/* // Extra large devices (large desktops, 1200px and up)=========== */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+header .row{
+    font-size: 14px;
+    margin-left: 1rem;
+    margin-right: 4%;
+    display: flex;
+}
+header .row img{width: 100px;}
+header .row ul{display: flex;justify-content: flex-end;}
+header .row ul li{
+    margin-top: -2rem;margin-left: 1.5rem;
+    list-style: none;
+}
+header .row ul li a{
+    font-family: gotham-medium;
+    text-decoration: none;color: black;
+}
+#Trangchu{background-color: #f3f3f3;margin-top: 5rem;}
+#Trangchu .banner{position: relative;}
+#Trangchu .banner .banner-text{
+    width: 780px;
+    position: absolute;
+    top: 16%;
+    left: 15%;
+}
+#Trangchu .banner .banner-text #h1_1{color: #2c2e53;font-family: gotham-ultra;}
+#Trangchu .banner .banner-text #h1_2{color: #bd945f;font-family: gotham-ultra;}
+#Trangchu .banner .banner-text p{width: 500px;font-family: gotham-medium; }  
+#Trangchu .banner .banner-text button{
+    font-family: gotham-ultra;
+    padding: 0.75rem;padding-left: 1.5rem;padding-right: 1.5rem;
+    color: white;background-color: #bd945f;
+    border: #bd945f;}
+#Trangchu .banner #duoi-banner{
+    position: absolute;
+    background-color: white;
+    color: #2c2e53;
+    font-family: gotham-ultra;
+    margin-top: -5rem;
+    margin-left: 9%;
+    width: 970px;
+    height:420px;
+}
+#Trangchu .banner #duoi-banner img{height: 100px;width: 100px;margin: 1rem;}
+#duoi-banner .row{text-align: center;margin: 2rem;}
+#sp-noi-bat{text-align: center;margin-top: 450px;width: 970px;} 
+#sp-noi-bat h2,h6{color: #2c2e53;font-family: gotham-ultra;margin-top: 0.5rem;}
+#sp-noi-bat h2{padding-left: 20%;}
+#sp-noi-bat .row{margin-top: 2.5rem;}
+#sp-noi-bat .row p{margin-top: -0.75rem;}
+#sp-noi-bat .row .col-3{margin-left: -1rem;}
+ i{color: #bd945f;margin-right: 0.2rem;}
+#ve-chung-toi .banner-vct{position: relative;}
+#ve-chung-toi .banner-vct .row{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 970px;height: 370px;
+    top: 10%;
+    color:white;
+    position: absolute;
+}
+
+#ve-chung-toi .banner-vct .row #h2_1{text-align: center; margin-top: -8%;}
+#vct1 img{
+    margin-left: -1rem;
+    width: 470px;height: 300px;
+}
+#vct2 {width: 450px;height: 280px;margin-left: -1rem;}
+#vct2 p{font-size: 10px;}
+#vct2-chen{position: relative;}
+#vct2-chen p{position: absolute;top: 45%;left: 10%;color: white;}
+#vct2 ul{display: flex;margin-left: -2rem;}
+#vct2 ul li{list-style: none;margin-right: 0.5rem;}
+#vct2 p{margin-top: -0.25rem;}
+#vct2 ul li img{width: 100px;height: 100px;}
+#ve-chung-toi .banner-vct .row #h2_2{text-align: center;margin-top: 2%;}
+#vct3{
+    display: flex;
+    margin-right: 1rem;margin-left: 3.6rem;margin-top: 2rem;
+    padding-left: 1.5rem;padding-top: 1rem;
+    background-color: white;color: black;
+    width: 420px;
+}
+#vct3 img{width: 40px;height: 40px;}
+#vct3 ul li{list-style: none;}
+#vct3 ul li h4{color: #bd945f;}
+#vct4{
+    display: flex;
+    ;margin-top: 2rem;
+    padding-left: 1.5rem;padding-top: 1rem;
+    background-color: white;color: black;
+    width: 420px;
+}
+#vct4 img{width: 40px;height: 40px;}
+#vct4 ul li{list-style: none;}
+#vct4 ul li h4{color: #bd945f;}
+#tintuc-doitac{width: 1170px;margin-top: 6rem;}
+#tintuc-doitac h2{text-align: center; padding-bottom: 2rem;}
+#tt-1{position: relative;margin-left: 1rem;}
+#tt-1  img {width: 470px;height: 500px;margin-left: 2.5rem;}
+#tt-1 #tt-text {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;margin-left: 2.5rem;
+    background-color: #bd945f;
+    width: 470px;height: 150px;
+}
+#tt-1 #tt-text h5{color: white;}
+#tt-2 {margin-left: -4.5rem;margin-top: -1.5rem;}
+#tt-2 ul li{list-style: none;}
+#tt-2 #tt-box{display: flex;margin-left: -2rem;padding-bottom: 0.5rem;}
+#tt-2 #tt-box li{padding-left: 0.5rem;}
+#dt{margin-top: 5rem;}
+#dt ul{display: flex;margin-left: 10%;}
+#dt ul li{list-style: none;margin: 1rem;}
+#dt ul li img{width: 100px;height: 90px;}
+#lienhe{position: relative;padding: 0;margin-top: 4rem;}
+#lienhe .lienhe-banner2{position: absolute;top: -9rem;left: 2%;}
+#lienhe .lienhe-banner2 img{width:200px; height: 300px;}
+#lienhe ul{display: flex;position: absolute;top: 30%;}
+#lienhe ul li{list-style: none;}
+#lienhe ul #lienhe3 button{margin-left: 2rem;width: 125px;height: 50px;margin-top: 2.5rem;}
+#lienhe ul #lienhe2 {margin-left: 6rem;}
+#lienhe ul #lienhe2 input{width: 300px;height: 50px;}
+#lienhe ul #lienhe1 {margin-left: 13rem;margin-top: 1.8rem;}
+footer{background-color: #363636;color: white;}
+footer .container{width: 1190px;}
+footer ul{margin: 2rem;}
+footer ul li{list-style: none;}
+footer ul li img{margin-right: 0.5rem;margin-bottom: 0.5rem;}
+#ft-box img{margin-bottom: 1rem;margin-top: 1rem;margin-right: 0.75rem}
+ }

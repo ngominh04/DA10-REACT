@@ -1,0 +1,162 @@
+#gt #banner{position: relative;margin-top: 5rem;}
+#gt #banner #banner-text{position: absolute;top: 5%;left: 48%;}
+#gt #banner #banner-text h1{margin-left: -2.2rem;margin-top: 1rem;}
+#gt #banner #banner-box{
+    position: absolute;
+    margin-top: -3rem; margin-left: 12%;
+    width: 1160px;
+    height: 1500px;
+}
+#gt #banner-box h2{padding-top: 3.5rem;font-family: gotham-ultra;}
+#gt #banner-box p{font-family: gotham-medium;}
+#gt #banner-box #thanhlap_pt .row{margin-top: 3.5rem; margin-left: 3.5rem;font-size: 14px;width: 1000px;} 
+#gt #banner-box #thanhlap_pt .row #thanhlap_pt-text{margin-left: 1.3rem; width: 450px;}
+/* #gt #banner-box #thanhlap_pt .row p{margin-left: 1.3rem; width: 450px;} */
+#gt #banner-box #thanhlap_pt .row img{width: 440px;}
+#gt #banner-box #tam-nhin .row{margin-left: 3.5rem;margin-top: 3.5rem; font-size: 14px;}
+#gt #banner-box #tam-nhin .row img{width: 950px;}
+#gt #banner-box #tam-nhin .row p{width: 950px; text-align: center;margin-top: 0.5rem;}
+#gt #banner-box #su-menh .row{
+    margin-top: 3.5rem;width: 1060px;margin-left: 1.5rem;
+}
+#su-menh ul{display: flex;border: 3px solid #bd945f;padding: 1rem;}
+#su-menh ul li{list-style: none;padding-left: 1rem;}
+#su-menh ul li img{margin-top: 1rem;}
+#su-menh ul li p{font-size: 12px;width: 320px;}
+#su-menh ul li h6{color: #bd945f;font-family: gotham-medium;}
+.khoang-trong{background-color: #f3f3f3;height: 1550px;}
+
+/* responsive  */
+/* // Small devices (landscape phones, 576px and up)================ */ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #gt #banner{position: relative;margin-top: 5rem;}
+    #gt #banner #banner-text{position: absolute;top: 5%;left: 45%;}
+    #gt #banner #banner-text img{width: 80px;}
+    #gt #banner #banner-text h1{margin-left: -2.2rem;margin-top: 1rem;font-size: 26px;}
+    #gt #banner #banner-box{
+        position: absolute;
+        margin-top: -3rem; margin-left: 5%;
+        width: 500px;
+        height: 1800px;
+    }
+    #gt #banner-box h2{padding-top: 3.5rem;font-family: gotham-ultra;font-size: 24px;}
+    #gt #banner-box p{font-family: gotham-medium;}
+    #gt #banner-box #thanhlap_pt .row{margin-top: 3.5rem; margin-left: 0;font-size: 12px;
+        width: 400px;} 
+    #gt #banner-box #thanhlap_pt .row img{width: 300px;margin-left: 5rem;}
+    #gt #banner-box #thanhlap_pt .row #thanhlap_pt-text{margin-left: 5rem; width: 300px;}
+    
+    #gt #banner-box #tam-nhin .row{margin-left: 0;margin-top: 3.5rem; font-size: 14px;}
+    #gt #banner-box #tam-nhin .row img{width: 400px;}
+    #gt #banner-box #tam-nhin .row p{width: 400px; text-align: center;margin-top: 0.5rem;}
+    #gt #banner-box #su-menh .row{
+        margin-top: 3.5rem;margin-left: 5%;
+        width: 400px;
+    }
+    #gt #banner-box #su-menh .row #su-menh-box{width: 420px;}
+    #su-menh ul{display: flex;border: 3px solid #bd945f;padding: 0.5rem;}
+    #su-menh ul li{list-style: none;padding-left: 1rem;}
+    #su-menh ul li img{margin-top: 1rem;width: 50px;}
+    #su-menh ul li p{font-size: 10px;width: 250px;}
+    #su-menh ul li h6{color: #bd945f;font-family: gotham-medium;}
+    .khoang-trong{background-color: #f3f3f3;height: 1850px;}
+}
+/* // Medium devices (tablets, 768px and up)======================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #gt #banner{position: relative;margin-top: 5rem;}
+    #gt #banner #banner-text{position: absolute;top: 5%;left: 45%;}
+    #gt #banner #banner-text img{width: 100px;}
+    #gt #banner #banner-text h1{margin-left: -2.2rem;margin-top: 1rem;font-size: 28px;}
+    #gt #banner #banner-box{
+        position: absolute;
+        margin-top: -3rem; margin-left: 5%;
+        width: 700px;
+        height: 1800px;
+    }
+    #gt #banner-box h2{padding-top: 3.5rem;font-family: gotham-ultra;font-size: 24px;}
+    #gt #banner-box p{font-family: gotham-medium;}
+    #gt #banner-box #thanhlap_pt .row{margin-top: 3.5rem; margin-left: 0;font-size: 12px;
+        width: 600px;} 
+    #gt #banner-box #thanhlap_pt .row img{width: 500px;margin-left: 5rem;}
+    #gt #banner-box #thanhlap_pt .row #thanhlap_pt-text{margin-left: 5rem; width: 500px;}
+    
+    #gt #banner-box #tam-nhin .row{margin-left: 0;margin-top: 3.5rem; font-size: 14px;}
+    #gt #banner-box #tam-nhin .row img{width: 600px;}
+    #gt #banner-box #tam-nhin .row p{width: 600px; text-align: center;margin-top: 0.5rem;}
+    #gt #banner-box #su-menh .row{
+        margin-top: 3.5rem;margin-left: 22%;
+        width: 500px;
+    }
+    #gt #banner-box #su-menh .row #su-menh-box{width: 420px;}
+    #su-menh ul{display: flex;border: 3px solid #bd945f;padding: 0.5rem;}
+    #su-menh ul li{list-style: none;padding-left: 1rem;}
+    #su-menh ul li img{margin-top: 1rem;width: 50px;}
+    #su-menh ul li p{font-size: 10px;width: 250px;}
+    #su-menh ul li h6{color: #bd945f;font-family: gotham-medium;}
+    .khoang-trong{background-color: #f3f3f3;height: 1850px;}
+}
+/* // Large devices (desktops, 992px and up)======================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    #gt #banner{position: relative;margin-top: 5rem;}
+    #gt #banner #banner-text{position: absolute;top: 5%;left: 45%;}
+    #gt #banner #banner-text h1{margin-left: -2.2rem;margin-top: 1rem;}
+    #gt #banner #banner-box{
+        position: absolute;
+        margin-top: -3rem; margin-left: 5%;
+        width: 900px;
+        height: 1600px;
+    }
+    #gt #banner-box h2{padding-top: 3.5rem;font-family: gotham-ultra;}
+    #gt #banner-box p{font-family: gotham-medium;}
+    #gt #banner-box #thanhlap_pt .row{margin-top: 3.5rem; margin-left: 0;font-size: 12px;
+        width: 900px;} 
+    #gt #banner-box #thanhlap_pt .row img{width: 400px;}
+    #gt #banner-box #thanhlap_pt .row #thanhlap_pt-text{margin-left: -2rem; width: 400px;}
+    
+    #gt #banner-box #tam-nhin .row{margin-left: 0;margin-top: 3.5rem; font-size: 14px;}
+    #gt #banner-box #tam-nhin .row img{width: 800px;}
+    #gt #banner-box #tam-nhin .row p{width: 800px; text-align: center;margin-top: 0.5rem;}
+    #gt #banner-box #su-menh .row{
+        margin-top: 3.5rem;margin-left: 23%;
+        width: 800px;
+    }
+    #gt #banner-box #su-menh .row #su-menh-box{width: 420px;}
+    #su-menh ul{display: flex;border: 3px solid #bd945f;padding: 0.5rem;}
+    #su-menh ul li{list-style: none;padding-left: 1rem;}
+    #su-menh ul li img{margin-top: 1rem;width: 50px;}
+    #su-menh ul li p{font-size: 10px;width: 290px;}
+    #su-menh ul li h6{color: #bd945f;font-family: gotham-medium;}
+    .khoang-trong{background-color: #f3f3f3;height: 1650px;}
+}
+/* // Extra large devices (large desktops, 1200px and up)=========== */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    #gt #banner{position: relative;margin-top: 5rem;}
+    #gt #banner #banner-text{position: absolute;top: 5%;left: 45%;}
+    #gt #banner #banner-text h1{margin-left: -2.2rem;margin-top: 1rem;}
+    #gt #banner #banner-box{
+        position: absolute;
+        margin-top: -3rem; margin-left: 6%;
+        width: 1050px;
+        height: 1400px;
+    }
+    #gt #banner-box h2{padding-top: 3.5rem;font-family: gotham-ultra;}
+    #gt #banner-box p{font-family: gotham-medium;}
+    #gt #banner-box #thanhlap_pt .row{margin-top: 3.5rem; margin-left: 0;font-size: 14px;} 
+    #gt #banner-box #thanhlap_pt .row p{margin-left: 1.3rem; width: 450px;}
+    #gt #banner-box #tam-nhin .row{margin-left: 0;margin-top: 3.5rem; font-size: 14px;}
+    #gt #banner-box #tam-nhin .row img{width: 970px;}
+    #gt #banner-box #tam-nhin .row p{width: 950px; text-align: center;margin-top: 0.5rem;}
+    #gt #banner-box #su-menh .row{
+        margin-top: 3.5rem;width: 1060px;margin-left: 0rem;
+    }
+    #gt #banner-box #su-menh .row #su-menh-box{width: 500px;}
+    #su-menh ul{display: flex;border: 3px solid #bd945f;padding: 0.5rem;}
+    #su-menh ul li{list-style: none;padding-left: 1rem;}
+    #su-menh ul li img{margin-top: 1rem;width: 80px;}
+    #su-menh ul li p{font-size: 11px;width: 320px;}
+    #su-menh ul li h6{color: #bd945f;font-family: gotham-medium;}
+    .khoang-trong{background-color: #f3f3f3;height: 1450px;}
+}
+
+

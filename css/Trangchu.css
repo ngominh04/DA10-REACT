@@ -1,0 +1,151 @@
+@font-face {
+    font-family: gotham-medium;
+    src: url(../fonts/Gotham-Medium.otf);
+}
+@font-face {
+    font-family: gotham-thin;
+    src: url(../fonts/Gotham-Thin.otf);
+}
+@font-face {
+    font-family: gotham-ultra;
+    src: url(../fonts/Gotham-Ultra.otf);
+}
+header{
+    /* cố định menu  */
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+}
+header .row{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+header .row img{width: 100px;}
+header .row ul{display: flex;justify-content: flex-end;}
+header .row ul li{
+    margin-top: -2rem;margin-left: 1.5rem;
+    list-style: none;
+}
+header .row ul li a{
+    font-family: gotham-medium;
+    text-decoration: none;color: black;
+}
+#Trangchu{background-color: #f3f3f3;margin-top: 5rem;}
+#Trangchu .banner{position: relative;}
+#Trangchu .banner .banner-text{
+    width: 780px;
+    position: absolute;
+    top: 16%;
+    left: 15%;
+}
+#Trangchu .banner .banner-text #h1_1{color: #2c2e53;font-family: gotham-ultra;}
+#Trangchu .banner .banner-text #h1_2{color: #bd945f;font-family: gotham-ultra;}
+#Trangchu .banner .banner-text p{width: 500px;font-family: gotham-medium; }  
+#Trangchu .banner .banner-text button{
+    font-family: gotham-ultra;
+    padding: 0.75rem;padding-left: 1.5rem;padding-right: 1.5rem;
+    color: white;background-color: #bd945f;
+    border: #bd945f;}
+#Trangchu .banner #duoi-banner{
+    position: absolute;
+    background-color: white;
+    color: #2c2e53;
+    font-family: gotham-ultra;
+    margin-top: -5rem;
+    margin-left: 14.5%;
+    width: 1080px;
+    height:420px;
+}
+#Trangchu .banner #duoi-banner img{height: 120px;}
+#duoi-banner .row{text-align: center;margin: 2rem;}
+#sp-noi-bat{text-align: center;margin-top: 450px;margin-left: 12%;} 
+#sp-noi-bat h2{margin-left: -17%;}
+#sp-noi-bat h2,h6{color: #2c2e53;font-family: gotham-ultra;margin-top: 0.5rem;}
+#sp-noi-bat img{width: 200px;height: 200px;}
+#sp-noi-bat #sp-loai{font-size: 12px;}
+#sp-noi-bat .row{margin-top: 2.5rem;margin-bottom: 2.5rem;}
+#sp-noi-bat .row p{margin-top: -0.75rem;}
+#sp-noi-bat .row .col-3{margin-left: -2rem;}
+ i{color: #bd945f;margin-right: 0.2rem;}
+#ve-chung-toi .banner-vct{position: relative;}
+#ve-chung-toi .banner-vct .row{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 1170px;height: 370px;
+    top: 10%;
+    color:white;
+    position: absolute;
+}
+
+#ve-chung-toi .banner-vct .row #h2_1{text-align: center; margin-top: -8%;}
+#vct1 img{
+    margin-left: 3rem;
+    width: 520px;height: 380px;
+}
+#vct2 {width: 573px;height: 280px;}
+#vct2-chen{position: relative;}
+#vct2-chen p{position: absolute;top: 45%;left: 10%;color: white;}
+#vct2 ul{display: flex;margin-left: -2rem;}
+#vct2 ul li{list-style: none;margin-right: 0.5rem;}
+#vct2 p{margin-top: -0.25rem;}
+#vct2 ul li img{width: 100px;height: 100px;}
+#ve-chung-toi .banner-vct .row #h2_2{text-align: center;margin-top: 2%;}
+#vct3{
+    display: flex;
+    margin-right: 1rem;margin-left: 3.6rem;margin-top: 2rem;
+    padding-left: 1.5rem;padding-top: 1rem;
+    background-color: white;color: black;
+    width: 520px;
+}
+#vct3 img{width: 50px;height: 50px;}
+#vct3 ul li{list-style: none;}
+#vct3 ul li h4{color: #bd945f;}
+#vct4{
+    display: flex;
+    ;margin-top: 2rem;
+    padding-left: 1.5rem;padding-top: 1rem;
+    background-color: white;color: black;
+    width: 550px;
+}
+#vct4 img{width: 50px;height: 50px;}
+#vct4 ul li{list-style: none;}
+#vct4 ul li h4{color: #bd945f;}
+#tintuc-doitac{width: 1170px;margin-top: 6rem;}
+#tintuc-doitac h2{text-align: center; padding-bottom: 2rem;}
+#tt-1{position: relative;margin-left: 1rem;}
+#tt-1  img {width: 520px;height: 500px;margin-left: 1rem;}
+#tt-1 #tt-text {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;margin-left: 1rem;
+    background-color: #bd945f;
+    width: 520px;height: 150px;
+}
+#tt-1 #tt-text h5{color: white;}
+#tt-2 {margin-left: -4.5rem;margin-top: -1.5rem;}
+#tt-2 ul li{list-style: none;}
+#tt-2 #tt-box{display: flex;margin-left: -2rem;padding-bottom: 0.5rem;}
+#tt-2 #tt-box li{padding-left: 0.5rem;}
+#dt{margin-top: 5rem;}
+#dt ul{display: flex;}
+#dt ul li{list-style: none;margin: 1rem;}
+#dt ul li img{width: 130px;height: 110px;}
+#lienhe{position: relative;padding: 0;margin-top: 4rem;}
+#lienhe .lienhe-banner2{position: absolute;top: -9rem;left: 2%;}
+#lienhe .lienhe-banner2 img{width:240px; height: 340px;}
+#lienhe ul{display: flex;position: absolute;top: 30%;}
+#lienhe ul li{list-style: none;}
+#lienhe ul #lienhe3 button{margin-left: 2rem;width: 125px;height: 60px;margin-top: 2.5rem;}
+#lienhe ul #lienhe2 {margin-left: 6rem;}
+#lienhe ul #lienhe2 input{width: 400px;height: 60px;}
+#lienhe ul #lienhe1 {margin-left: 22rem;margin-top: 1.8rem;}
+footer{background-color: #363636;color: white;}
+footer .container{width: 1190px;}
+footer ul{margin: 2rem;}
+footer ul li{list-style: none;}
+footer ul li img{margin-right: 0.5rem;margin-bottom: 0.5rem;}
+#ft-box img{margin-bottom: 1rem;margin-top: 1rem;margin-right: 0.75rem}

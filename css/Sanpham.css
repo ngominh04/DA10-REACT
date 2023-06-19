@@ -1,0 +1,106 @@
+
+#sp{background-color: #f3f3f3;height: 5048px;}
+#sp .banner{position: relative;margin-top: 5rem;}
+#sp .banner .banner-text{position: absolute; left: 58%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+#sp .banner .banner-text h1{position: relative;}
+#sp .banner .banner-text h1 img{position: absolute;top: -5rem;left: -4.5rem;}
+#sp .banner .banner-text button{width: 180px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;}
+#sp #phong{width: 1150px;margin-left: 12%;background-color: white;margin-top: 3rem;height: 515px;}
+#sp #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+#sp #phong h3{position: relative;}
+#sp #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;font-size: 16px;bottom: 0;}
+#sp #phong .row{text-align: center;width: 1100px;margin-left: 1rem;font-family: gotham-medium;}
+#sp #phong .row img{width: 250px;height: 250px;}
+#sp #phong .row p{margin-top: -0.65rem;}
+#sp #phong .row #size{font-family: gotham-thin;font-size: 12px;color: black;}
+#sp #phong .row #gia{font-family: gotham-medium;font-size: 14px;}
+#sp #phong a{text-decoration: none;color: black;}
+/* responsive  */
+/* // Small devices (landscape phones, 576px and up)================ */ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #sp{background-color: #f3f3f3;height: 3748px;}
+    #sp .banner{position: relative;margin-top: 5rem;}
+    #sp .banner .banner-text{position: absolute; left: 45%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #sp .banner .banner-text h1{position: relative;font-size: 24px;}
+    #sp .banner .banner-text h1 img{position: absolute;top: -3rem;left: -2.5rem;width: 250px;}
+    #sp .banner .banner-text button{width: 90px;height: 40px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;font-size: 12px;}
+    
+    #sp #phong{width: 500px;margin-left: 8%;background-color: white;margin-top: 3rem;height: 385px;}
+    #sp #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;font-size: 20px;}
+    #sp #phong h6{font-size: 12px;}
+    #sp #phong h3{position: relative;}
+    #sp #phong h3 p{position: absolute;margin-left: 82%;font-family: gotham-medium;font-size: 10px;bottom: 0;}
+    #sp #phong .row{text-align: center;width: 450px;margin-left: 1rem;font-family: gotham-medium;}
+    #sp #phong .row img{width: 100px;height: 100px;}
+    #sp #phong .row p{margin-top: -0.65rem;}
+    #sp #phong .row #size{font-family: gotham-thin;font-size: 10px;color: black;}
+    #sp #phong .row #gia{font-family: gotham-medium;font-size: 12px;}
+}
+/* // Medium devices (tablets, 768px and up)======================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #sp{background-color: #f3f3f3;height: 4048px;}
+    #sp .banner{position: relative;margin-top: 5rem;}
+    #sp .banner .banner-text{position: absolute; left: 45%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #sp .banner .banner-text h1{position: relative;font-size: 28px;}
+    #sp .banner .banner-text h1 img{position: absolute;top: -4rem;left: -3rem;width: 300px;}
+    #sp .banner .banner-text button{width: 130px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;}
+    
+    #sp #phong{width: 700px;margin-left: 5%;background-color: white;margin-top: 3rem;height: 415px;}
+    #sp #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+    #sp #phong h6{font-size: 12px;}
+    #sp #phong h3{position: relative;}
+    #sp #phong h3 p{position: absolute;margin-left: 85%;font-family: gotham-medium;font-size: 14px;bottom: 0;}
+    #sp #phong .row{text-align: center;width: 650px;margin-left: 1rem;font-family: gotham-medium;}
+    #sp #phong .row img{width: 150px;height: 150px;}
+    #sp #phong .row p{margin-top: -0.65rem;}
+    #sp #phong .row #size{font-family: gotham-thin;font-size: 10px;color: black;}
+    #sp #phong .row #gia{font-family: gotham-medium;font-size: 12px;}
+}
+/* // Large devices (desktops, 992px and up)======================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #sp{background-color: #f3f3f3;height: 5048px;}
+    #sp .banner{position: relative;margin-top: 5rem;}
+    #sp .banner .banner-text{position: absolute; left: 58%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #sp .banner .banner-text h1{position: relative;}
+    #sp .banner .banner-text h1 img{position: absolute;top: -5rem;left: -4.5rem;}
+    #sp .banner .banner-text button{width: 180px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;}
+    
+    #sp #phong{width: 900px;margin-left: 5%;background-color: white;margin-top: 3rem;height: 515px;}
+    #sp #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+    #sp #phong h3{position: relative;}
+    #sp #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;font-size: 16px;bottom: 0;}
+    #sp #phong .row{text-align: center;width: 850px;margin-left: 1rem;font-family: gotham-medium;}
+    #sp #phong .row img{width: 200px;height: 200px;}
+    #sp #phong .row p{margin-top: -0.65rem;}
+    #sp #phong .row #size{font-family: gotham-thin;font-size: 12px;color: black;}
+    #sp #phong .row #gia{font-family: gotham-medium;font-size: 14px;}
+}
+/* // Extra large devices (large desktops, 1200px and up)=========== */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    #sp{background-color: #f3f3f3;height: 5048px;}
+    #sp .banner{position: relative;margin-top: 5rem;}
+    #sp .banner .banner-text{position: absolute; left: 58%;top: 30%;font-family: gotham-medium;color: #2c2e53;}
+    #sp .banner .banner-text h1{position: relative;}
+    #sp .banner .banner-text h1 img{position: absolute;top: -5rem;left: -4.5rem;}
+    #sp .banner .banner-text button{width: 180px;height: 50px;padding: 1rem 1rem 0.5rem 0.5rem;border: white;margin-left: 13.7rem;}
+    
+    #sp #phong{width: 1050px;margin-left: 5%;background-color: white;margin-top: 3rem;height: 515px;}
+    #sp #phong h3{margin-left: 2rem;margin-bottom: 3rem;padding-top: 2rem; font-family: gotham-ultra;color: #2c2e53;}
+    #sp #phong h3{position: relative;}
+    #sp #phong h3 p{position: absolute;margin-left: 88.5%;font-family: gotham-medium;font-size: 16px;bottom: 0;}
+    #sp #phong .row{text-align: center;width: 1000px;margin-left: 1rem;font-family: gotham-medium;}
+    #sp #phong .row img{width: 200px;height: 200px;}
+    #sp #phong .row p{margin-top: -0.65rem;}
+    #sp #phong .row #size{font-family: gotham-thin;font-size: 12px;color: black;}
+    #sp #phong .row #gia{font-family: gotham-medium;font-size: 14px;}
+}
+
+
+
+
+
+
+
+
+
+

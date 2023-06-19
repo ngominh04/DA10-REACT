@@ -1,0 +1,98 @@
+#tin-tuc{position: absolute; margin-top: 10rem;width: 1150px;background-color: white; margin-left: 12%; }
+#tin-tuc h1{padding: 2rem;margin-bottom: 2rem;}
+#tin-tuc .row {margin-left: 1.5rem;}
+#tin-tuc img {width: 320px;height: 320px;}
+#tin-tuc h6 {width: 320px;color: #bd945f;}
+#tin-tuc p {width: 320px;}
+.tin-tuc-khoang-trong {background-color: #f3f3f3;height: 1920px;}
+#tintuc-next {margin-left: 35%;}
+#tintuc-next ul{display: flex;margin-bottom: 3rem;}
+#tintuc-next ul li {
+    list-style: none;
+    /* width: 25px;
+    background-color: #f3f3f3; */
+    text-align: center;
+    margin: 0.5rem;}
+#tintuc-next ul li a{padding: 5px;padding-left: 7px;padding-right: 7px; color: white;text-decoration: none;}
+
+/* responsive */
+/* // Small devices (landscape phones, 576px and up)================ */ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #tin-tuc{position: absolute; margin-top: 10rem;width: 500px;background-color: white; margin-left: 5%; }
+    #tin-tuc h1{padding: 2rem;margin-bottom: 2rem;font-size: 28px;}
+    #tin-tuc .row {margin-left: -1rem;}
+    #tin-tuc img {width: 150px;height: 150px;}
+    #tin-tuc h6 {width: 150px;color: #bd945f;font-size: 12px;}
+    #tin-tuc p {width: 150px;font-size: 12px;}
+    .tin-tuc-khoang-trong {background-color: #f3f3f3;height: 1520px;}
+    #tintuc-next {margin-left: 25%;width: 300px;}
+    #tintuc-next ul{display: flex;margin-bottom: 3rem;}
+    #tintuc-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #tintuc-next ul li a{width: 25px; color: white;text-decoration: none;}
+}
+/* // Medium devices (tablets, 768px and up)======================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #tin-tuc{position: absolute; margin-top: 10rem;width: 700px;background-color: white; margin-left: 5%; }
+    #tin-tuc h1{padding: 2rem;margin-bottom: 2rem;}
+    #tin-tuc .row {margin-left: -1rem;}
+    #tin-tuc img {width: 200px;height: 200px;}
+    #tin-tuc h6 {width: 200px;color: #bd945f;font-size: 12px;}
+    #tin-tuc p {width: 200px;font-size: 12px;}
+    .tin-tuc-khoang-trong {background-color: #f3f3f3;height: 1620px;}
+    #tintuc-next {margin-left: 35%;width: 300px;}
+    #tintuc-next ul{display: flex;margin-bottom: 3rem;}
+    #tintuc-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #tintuc-next ul li a{width: 25px; color: white;text-decoration: none;}
+}
+/* // Large devices (desktops, 992px and up)======================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #tin-tuc{position: absolute; margin-top: 10rem;width: 900px;background-color: white; margin-left: 5%; }
+    #tin-tuc h1{padding: 2rem;margin-bottom: 2rem;}
+    #tin-tuc .row {margin-left: 1.5rem;}
+    #tin-tuc img {width: 250px;height: 250px;}
+    #tin-tuc h6 {width: 250px;color: #bd945f;}
+    #tin-tuc p {width: 250px;}
+    .tin-tuc-khoang-trong {background-color: #f3f3f3;height: 1920px;}
+    #tintuc-next {margin-left: 35%;width: 300px;}
+    #tintuc-next ul{display: flex;margin-bottom: 3rem;}
+    #tintuc-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #tintuc-next ul li a{width: 25px; color: white;text-decoration: none;}
+}
+/* // Extra large devices (large desktops, 1200px and up)=========== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #tin-tuc{position: absolute; margin-top: 10rem;width: 1050px;background-color: white; margin-left: 5%; }
+    #tin-tuc h1{padding: 2rem;margin-bottom: 2rem;}
+    #tin-tuc .row {margin-left: 1.5rem;}
+    #tin-tuc img {width: 280px;height: 280px;}
+    #tin-tuc h6 {width: 280px;color: #bd945f;}
+    #tin-tuc p {width: 280px;}
+    .tin-tuc-khoang-trong {background-color: #f3f3f3;height: 1920px;}
+    #tintuc-next {margin-left: 35%;width: 300px;}
+    #tintuc-next ul{display: flex;margin-bottom: 3rem;}
+    #tintuc-next ul li {
+        list-style: none;
+        /* width: 25px;
+        background-color: #f3f3f3; */
+        text-align: center;
+        margin: 0.5rem;}
+    #tintuc-next ul li a{width: 25px; color: white;text-decoration: none;}
+}
+
+
+
+
